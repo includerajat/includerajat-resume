@@ -4,35 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>includerajat-resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gotu&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/512/5404/5404040.png"
       type="image/x-icon"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100dvh;
-      }
-      iframe {
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <p class="greeting">
+      Hi <span class="name">Anonymous,</span> Thanks for visiting here.
+    </p>
+    <p class="referral">
+      Thanks for considering me for giving referral in
+      <span class="company">Your Company.</span>
+    </p>
+    <p class="resume">
+      You can download my resume from this
+      <a href="https://drive.google.com/uc?id=16Oh_cNrHTPRQRhCmKLFSGDshOoEAxJOg"
+        >link (click on me),</a
+      >
+      or you can preview below ↓
+    </p>
+    <br />
     <iframe
       src="https://drive.google.com/file/d/16Oh_cNrHTPRQRhCmKLFSGDshOoEAxJOg/preview"
       allow="autoplay"
     ></iframe>
+    <script src="app.js"></script>
   </body>
 </html>
